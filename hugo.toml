@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://coach-punk.github.io/mvrwc/'
 locale = 'en-us'
-title = 'My New Hugo Project'
-theme = "PaperMod"
+title = 'My Vast, Right-Wing Conspiracy'
+theme = "roadster"
+paginate = 10
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
